@@ -24,6 +24,8 @@ const handleUserInput = function() {
       connection.write('Move: right');
     } else if (key === 'p') {
       connection.write('Move: down');
+    } else if (key === 'h') {
+      connection.write('Say: hello');
     };
   });
 };
